@@ -1,6 +1,6 @@
-package com.baeldung.springbootadminserver;
+package com.sun.springbootadminserver;
 
-import com.baeldung.springbootadminserver.configs.HazelcastConfig;
+import com.sun.springbootadminserver.configs.HazelcastConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

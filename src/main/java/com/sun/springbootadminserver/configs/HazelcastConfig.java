@@ -1,4 +1,4 @@
-package com.baeldung.springbootadminserver.configs;
+package com.sun.springbootadminserver.configs;
 
 import com.hazelcast.config.Config;
 import com.hazelcast.config.EvictionPolicy;

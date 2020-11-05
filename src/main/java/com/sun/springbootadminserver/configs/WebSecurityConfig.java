@@ -1,4 +1,4 @@
-package com.baeldung.springbootadminserver.configs;
+package com.sun.springbootadminserver.configs;
 
 import java.util.UUID;
 

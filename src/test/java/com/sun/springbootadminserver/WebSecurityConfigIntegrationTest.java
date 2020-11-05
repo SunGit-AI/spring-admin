@@ -1,4 +1,4 @@
-package com.baeldung.springbootadminserver;
+package com.sun.springbootadminserver;
 
 import org.junit.Before;
 import org.junit.Test;

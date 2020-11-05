@@ -1,4 +1,4 @@
-package com.baeldung.springbootadminserver;
+package com.sun.springbootadminserver;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
