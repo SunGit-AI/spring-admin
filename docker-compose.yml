@@ -38,3 +38,15 @@ services:
             ipv4_address: 172.18.0.9
     ports:
       - "9669"
+  sun-prometheus01:
+    image: prom/prometheus:v2.23.0
+    container_name: sun-prometheus01
+    networks:
+        default:
+            ipv4_address: 172.18.0.10
+    ports:
+      - "9660:9660"
+    command:
+    - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+    - ../sunSpringTest01/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
