@@ -1,8 +1,6 @@
 node {
     //agent { dockerfile true } 
-    tools {
-        maven "3.6.3"
-    }
+    //tools { maven "3.6.3"}
     stage('build') {
         steps{
             sh "mvn -version"
