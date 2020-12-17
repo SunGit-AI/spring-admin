@@ -4,7 +4,8 @@ pipeline {
         stage('build') {
             steps{
                 script {
-                    sh 'mvn clean deploy -DperformRelease=true'
+                    def mvnHome = tool name: 'maven-3', type: 'maven'
+                    sh "${mvnHome}/bin/mvn clean deploy -DperformRelease=true"
                 }
             }
         }
