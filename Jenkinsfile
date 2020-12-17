@@ -12,7 +12,7 @@ pipeline {
         }
         stage('dockernize') {
             steps{
-                sh 'docker build -t sxwdocker/sun-spring-test01:spring.admin.01 .'
+                sh 'docker build -t sxwdocker/sun-spring-test01:spring.admin.01 -f ./Dockerfile-Admin .'
             }
         }
     }
