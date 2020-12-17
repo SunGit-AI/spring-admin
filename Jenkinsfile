@@ -12,7 +12,8 @@ pipeline {
         }
         stage('dockernize') {
             steps{
-                docker.build("sun-spring-test01", "-t spring.admin.01 .")
+                docker.build("sun-spring-test01 .") 
+                //, "-t spring.admin.01 ."
             }
         }
     }
